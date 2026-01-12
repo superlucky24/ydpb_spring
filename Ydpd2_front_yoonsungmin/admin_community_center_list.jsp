@@ -1,0 +1,127 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자치회관 게시판 | 관리자 | 영등포본동 주민센터</title>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/images/favicon.ico">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/reset.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/ydpb.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/ydpb_community_center_list.css">
+    <script src="${pageContext.request.contextPath}/js/jquery-1.12.4.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery-3.3.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/prefixfree.min.js"></script>
+    <script>const menuName = '자치회관 게시판';</script>
+    <script src="${pageContext.request.contextPath}/js/ydpb.js"></script>
+</head>
+<body>
+    <div id="wrap">
+
+        <!-- container -->
+        <div>
+            <div class="contents_wrap safe_area">
+                <!-- side menu -->
+                <aside class="side_menu"></aside>
+                <!-- //side menu -->
+
+                <!-- main -->
+                <main>
+
+
+                    <!-- contents -->
+                    <div id="board" class="clearfix">
+                        <div id="contents">
+                            <form action="#" class="board_searchform">
+                                <fieldset>
+                                    <legend>게시물검색</legend>
+                                    <div class="p-search clearfix">
+                                        <div class="p-form-group">
+                                            <label for="search_cnb" class="skip">검색항목선택</label>
+                                            <select name="search_cnb" id="search_cnb" title="검색항목선택" class="p-input">
+                                                <option value="title" selected="selected">제목</option>
+                                                <option value="con">내용</option>
+                                                <option value="city">행정동</option>
+                                            </select>
+                                            
+                                            <label for="search_krwd" class="skip"></label>
+                                            <input name="searchKrwd" id="search_krwd" class="p-input" type="text" value>
+                                            <span class="p-form-group__btn">
+                                                <input value="검색" type="submit" class="p-button">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="page_cou clearfix">
+                            <p>
+                                총
+                                <em class="em_black">15</em>
+                                개 &nbsp;[
+                                <em class="em_b_black">1</em>
+                                / 2 페이지]
+                            </p>
+                        </div>
+                        <table class="p_table">
+                            <colgroup>
+                                <col style="width: 100px;">
+                                <col>
+                                <col style="width: 120px;">
+                                <col style="width: 120px;">
+                                <col style="width: 90px;">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col">번호</th>
+                                    <th scope="col">제목</th>
+                                    <th scope="col">부서</th>
+                                    <th scope="col">작성일</th>
+                                    <th scope="col">조회수</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tb_text">
+                                <tr>
+                                    <td>15</td>
+                                    <td class="p_sub"><a href="community_center_view.html">2025년 상반기 영등포본동 자치회관 운영결과 보고서</a></td>
+                                    <td>영등포본동</td>
+                                    <td><time datetime="2025-07-09">2025.07.09</time></td>
+                                    <td>84</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td class="p_sub"><a href="community_center_view.html">2024년 상반기 영등포본동 자치회관 운영결과 보고서</a></td>
+                                    <td>영등포본동</td>
+                                    <td><time datetime="2025-07-09">2024.07.09</time></td>
+                                    <td>74</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="p_ctrl">
+                            <div class="p_control">
+                                <span class="p-link_b">
+                                    <strong title="현재 1페이지" class="p_link active">
+                                        1
+                                    </strong>
+                                    <a href="#" class="p_link">2</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="board_btm_btns">
+                            <a href="community_center_write.html" class="btn btn_write">글쓰기</a>
+                        </div>
+                    </div>
+                    <!-- //contents -->
+
+                </main>
+                <!-- //main -->
+            </div>
+        </div>
+        <!-- //container -->
+
+
+    </div>
+</body>
+</html>
