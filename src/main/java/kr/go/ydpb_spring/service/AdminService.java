@@ -1,4 +1,4 @@
-package kr.go.Ydpb.service;
+package kr.go.ydpb_spring.service;
 
 public interface AdminService {
     // 메서드 추가

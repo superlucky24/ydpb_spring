@@ -1,4 +1,4 @@
-package kr.go.Ydpb.controller;
+package kr.go.ydpb_spring.controller;
 
 import org.springframework.stereotype.Controller;
 
