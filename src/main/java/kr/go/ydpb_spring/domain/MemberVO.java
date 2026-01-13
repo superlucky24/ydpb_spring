@@ -1,4 +1,4 @@
-package kr.go.Ydpb.domain;
+package kr.go.ydpb_spring.domain;
 
 import lombok.Data;
 
