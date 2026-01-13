@@ -1,6 +1,6 @@
-package kr.go.Ydpb.service;
+package kr.go.ydpb_spring.service;
 
-import kr.go.Ydpb.mapper.AdminMapper;
+import kr.go.ydpb_spring.mapper.AdminMapper;
 import lombok.AllArgsConstructor;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
